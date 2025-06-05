@@ -13,7 +13,7 @@ class YouTubeDownloaderApp:
         self.root.geometry("800x400")
         self.root.resizable(False, False)
 
-        icon_path = "Solo\\SQL\\Graphics-Vibe-Classic-3d-Social-Youtube.256.png"
+        icon_path = "Graphics-Vibe-Classic-3d-Social-Youtube.256.png"
         if os.path.exists(icon_path):
             self.icon = PhotoImage(file=icon_path)
             self.root.iconphoto(True, self.icon)
